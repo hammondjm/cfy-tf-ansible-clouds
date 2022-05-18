@@ -1,0 +1,15 @@
+name: GitHub Actions Demo
+on:
+  push:
+  workflow_dispatch:
+jobs:
+  test_job:
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Create environment
+        uses: cloudify-cosmo/create-environment-action@v1.2
+        with:
+          environment-name: "test-simple-$GITHUB_RUN_ID"
+          blueprint: tf_ansible_aws.yaml
+          outputs-file: env-data.json
