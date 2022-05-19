@@ -33,6 +33,7 @@ inputs:
           - DEV
           - QA
           - PRODUCTION
+          - CICD_DEV
 
   nginx_port:
     description: |
