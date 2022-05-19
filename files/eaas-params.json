@@ -6,6 +6,12 @@
       },
       "message": "Development on AWS - Managed by Cloudify!"
     },
+    "CICD_DEV": {
+      "flavor": {
+        "instance_type": "t2.micro"
+      },
+      "message": "Development on AWS - Managed by Cloudify!"
+    },    
     "QA": {
       "flavor": {
         "instance_type": "t2.medium"
@@ -26,6 +32,12 @@
       },
       "message": "Development on GCP - Managed by Cloudify!"
     },
+    "CICD_DEV": {
+      "flavor": {
+        "instance_type": "n1-standard-2"
+      },
+      "message": "Development on GCP - Managed by Cloudify!"
+    },    
     "QA": {
       "flavor": {
         "instance_type": "n1-standard-4"
