@@ -1,3 +1,3 @@
 env_type: CICD_DEV
 vm_count: 1
-aws_region_name: us-east-1
+aws_region_name: us-west-1
